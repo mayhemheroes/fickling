@@ -1,6 +1,5 @@
-project: fickling1
-target: fickling1
-
+project: fickling
+target: fickling
 image: ghcr.io/ebell495/fickling:latest
 duration: 300
 
