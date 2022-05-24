@@ -1,0 +1,12 @@
+project: fickling1
+target: fickling1
+
+image: ghcr.io/ebell495/fickling:latest
+duration: 300
+
+tests: 
+    - file://./fuzz/fuzz_corpus
+
+cmds:
+    - cmd: fuzz/fuzz.py
+      libfuzzer: true
