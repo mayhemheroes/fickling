@@ -1,7 +1,5 @@
 project: fickling
-target: fickling
-image: ghcr.io/ebell495/fickling:latest
-duration: 300
+target: fuzz
 
 tests: 
     - file://./fuzz/fuzz_corpus
