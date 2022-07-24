@@ -5,5 +5,5 @@ testsuite:
     - file://./fuzz/fuzz_corpus
 
 cmds:
-    - cmd: fuzz/fuzz.py
+    - cmd: fuzz/fuzz_pickle_decompiler.py
       libfuzzer: true
