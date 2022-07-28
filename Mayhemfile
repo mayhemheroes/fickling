@@ -1,5 +1,5 @@
 project: fickling
-target: fuzz
+target: fuzz_pickle_decompiler
 
 testsuite: 
     - file://./fuzz/fuzz_corpus
